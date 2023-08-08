@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ASSIGNMENT</title>
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body onload="checkLoggedInUser()">
+    <header>
+      <div class="header-top">
+        <div class="row-header-top">
+          <div class="contact-info ">
+            <ul>
+              <li><a class="disabled" href="#">+880 4664 216</a></li>
+              <li><a class="disabled" href="#">Mon - Sat 10:00 - 7:00</a></li>
+            </ul>
+          </div>
+  
+          <div class="social-icon">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-pinterest"></i></a>
+            <a href="#"><i class="bi bi-google"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+          </div>
+
+          <div class="dropdown">
+            <button id="menuUsername" class="dropbtn">Account</button>
+            <div class="dropdown-content">
+              <a href="login.html" id="loginBtn">Đăng nhập</a>
+              <a href="Account_info.html" id="account_info"  >Thông tin tài khoản</a>
+              <a id="logoutButton" onclick="logout()" style="display: none;">Đăng xuất</a>
+              <a href="Account.html" id="registerBtn">Đăng kí</a>
+              
+            </div>
+          </div>
+          
+        </div>
+        
+       
+      </div>
+      <div class="header-bottom">
+        <img src="img/banner.png.webp" alt="">
+        <div class="row-header-bottom">
+          <a href="index.html"><img src="img/logo.png.webp" alt=""></a>
+          <nav class="navbar navbar-expand-lg ">
+              <div class="container-fluid">           
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="collapsibleNavbar">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="blog.html">Blog</a>
+                    </li>    
+                  
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact</a>
+                    </li>  
+                   
+                  </ul>
+                </div>
+              </div>
+            </nav>
+            
+        </div>
+      
+      
+        </div>
+
+       
+          <!-- navbar -->
+    </header>
+    <!--Header-->
+    <section>
+      <div class="banner-father">
+        <div class="row-home-banner">
+          <div class="slider-text">
+            <h2>We Care</h2>
+            <span>Your Pets</span>
+            <p>Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit, sed do eiusmod.</p>
+            <a href="#">Contact us</a>
+          </div>
+          <div class="img-banner">
+            <img class="reponsive-picture" src="img/dog.png.webp" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Slider-->
+  
+      <section>
+        <div class="area-home">
+          <div class="container">
+            <div class="collum-text-home">
+              <div class="text-area-home">
+                <h3>
+                  Services for every dog
+                </h3>
+                <p>Lorem ipsum dolor sit , consectetur adipiscing elit, sed do
+                  iusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Quis ipsum suspendisse ultrices gravida. Risus commodo
+                  viverra maecenas accumsan.</p>
+              </div>
+            </div>
+          </div>
+          <div class="box-row-home">
+            <div class="box-home ">
+              <div class="background-orange">
+                <div class="picture-area">
+                  <img src="img/area/service_icon_1.png.webp" alt="">
+                </div>
+                </div>
+              <div class="text-box-home">
+                <h3>Pet Boarding</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+              </div>
+              
+            </div>
+            <div class="box-home ">
+              <div class="background-orange">
+                <div class="picture-area">
+                  <img src="img/area/service_icon_2.png.webp" alt=""></div>
+                </div>
+              <div class="text-box-home">
+                <h3>Healthy Meals</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+              </div>
+              
+            </div>
+            <div class="box-home ">
+              <div class="background-orange">
+                <div class="picture-area">
+                  <img src="img/area/service_icon_3.png.webp" alt=""></div>
+                </div>
+              <div class="text-box-home">
+                <h3>Pet Spa</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      
+      
+      </section><!--AREA HOME-->
+      <footer>
+        <div class="footer-top">
+          <div class="footer-box">
+            <h3>Contact Us</h3>
+            <ul>
+              <li>+555 0000 565</li>
+              <li><a href="#">Demomail@gmail.Com</a> </li>
+              <li>700, Green Lane, New York, USA</li>
+            </ul>
+          </div>
+          <div class="footer-box">
+            <h3>Our Servces</h3>
+            <ul>
+              <li><a href="#">Pet Insurance</a></li>
+              <li><a href="#">Pet surgeries</a></li>
+              <li><a href="#">Pet Adoption</a></li>
+              <li><a href="#">Dog Insurance</a></li>
+              <li><a href="#">Dog Insurance</a></li>
+            </ul>
+          </div>
+          <div class="footer-box">
+            <h3>Quick Link</h3>
+            <ul>
+             <li><a href="#">About Us</a></li>
+             <li><a href="#">Privacy Policy</a></li>
+             <li><a href="#">Terms of Service</a> </li>
+             <li><a href="#">Login info</a></li>
+             <li><a href="#">Knowledge Base</a></li>
+            </ul>
+          </div>
+          <div class="footer-box">
+            <h3><a href="index.html"><img src="img/logo.png.webp" alt=""></a></h3>
+            <p>239 E 5th St, New York NY 10003, USA</p>
+            <ul class="footer-icon">
+              <li> <a href="#"><i class="bi bi-facebook"></i></a> </li>
+              <li> <a href="#"><i class="bi bi-pinterest"></i></a> </li>
+              <li> <a href="#"><i class="bi bi-google"></i></a> </li>
+              <li> <a href="#"><i class="bi bi-instagram"></i></a> </li>
+            </ul>
+          </div>
+        </div>
+        <!--footer-top-->
+        <hr>
+        <div class="footer-copy-right">
+          <div>
+            <p>
+              Copyright ©2023 All rights reserved | This template is made with  by <a href="#">Colorlib</a> 
+            </p>
+          </div>
+        </div>
+        <!--footer-bottom-->
+        
+      </footer>
+    <!--Footer-->
+    <script src="js/account.js"></script>
+  
+</body>
+
+</html>

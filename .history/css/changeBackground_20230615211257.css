@@ -1,0 +1,14 @@
+.background-blur{
+    content: '';
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/ASSIGNMENT/img/Background_blur/adopt-pet-from-animal-shelter-form-cats-dogs-care-flat-cartoon-illustration_2175-9539.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+    background-size: cover;
+    -webkit-filter: blur(10px);
+    -moz-filter:blur(10px) ;
+    
+
+}

@@ -1,0 +1,20 @@
+.iframeMap{
+    position: relative;
+}
+.iframeMap button{
+    position: absolute;
+    bottom: 20px;
+    right: 50%;
+    left: 50%;
+    cursor: pointer;
+    color: #fff;
+    background-color: #EB4122;
+    transform: translate(-50%);
+    border: none;
+    font-size: 18px;
+    padding:  16px 32px;
+    border-radius: 30px;
+}
+iframe{
+    width: 100%;
+}

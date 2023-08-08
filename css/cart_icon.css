@@ -1,0 +1,21 @@
+.navbar-right {
+    float: right;
+  }
+  #cart{
+    text-decoration: none;
+    color: black;
+  }
+.navbar-right{
+  list-style: none;
+}
+.red{
+  font-size: 20px;
+  color: red;
+}
+.green{
+  font-size: 20px;
+  color: green;
+}
+#created_by{
+  font-size: 25px;
+}
